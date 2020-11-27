@@ -1,0 +1,128 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+div.flex {
+    display: flex;
+}
+
+div.flex-row {
+    display: flex;
+    flex-direction: row; 
+}
+
+div.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+div.header {
+    width: 100%;
+    background-color: #dddddd;
+    height: 40px;
+    align-items: center;
+        /* offset-x | offset-y | blur-radius | color */
+    /* box-shadow: 0px 2px 3px #aaaaaa; */
+    border: solid 1px blue;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    justify-content: center;
+}
+
+div.header-items {
+    display: flex;
+    width: 70%;
+    max-width: 1000px;
+}
+
+div.header-item {
+    margin-right: 20px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+img.logo {
+    width: 36px;
+    height: 36px;
+    margin-right: 30px;
+}
+
+img.icon {
+    width: 20px;
+    height: 20px;
+}
+
+div.page {
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -10;
+}
+
+div.container {
+    align-items: center;
+}
+
+div.account-card {
+    background-color: white;
+    border: solid 0.5px #b1b1b1;
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0px 2px 5px #aaaaaa;
+}
+
+div.header-image {
+    width: 100%;
+    height: 100px;
+    background-color: #bee6db;
+}
+
+div.personal-info {
+    width: 80%;
+    margin-left: 20px;
+    
+    
+}
+
+div.work-highlights {
+    font-size: 12px;
+}
+
+div.avatar-container {
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+img.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50px;
+        /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0px 2px 5px #aaaaaa;
+}
